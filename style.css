@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    color: red;
+}
+
+.container-full {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #030303;
+}
+
+.header {
+    height: 70px;
+    background-color: white;
+}
+
+.main-body {
+    flex: 1;
+    background-color: gray;
+}
+
+.footer {
+    height: 60px;
+    background-color: aquamarine;
+}
+
+.bg-gray {
+    background-color: #3f3f3f;
+}
+
+.stage-center {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.custom {
+    position: relative;
+    bottom: 50px;
+    padding: 5px 10px 5px 10px;
+    border-style: none;
+    background-color: beige;
+    border-color: white;
+}
+
+.custom:hover{
+    background-color: red;
+}
